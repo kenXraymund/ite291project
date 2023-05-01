@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+    <title> CITE | Clothing Shop </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    
+<div class="header">
+    <div class="container">
+        <div class ="navbar">
+            <div class = "logo">
+               <a href = "index.html"><img src = "images/logo1.png" width = "220px"></a>
+            </div>
+            <nav>
+                <ul id ="MenuItems">
+                    <li> <a href = "index.html">Home </a></li>
+                    <li> <a href = "product.html">Products </a></li>
+                    <li> <a href = ""> About </a></li>
+                    <li> <a href = "contact.html">Contact </a></li>
+                    <li> <a href = "account.html">Account </a></li>
+                </ul>
+            </nav>
+            <a href ="cartpage.html"><img src="images/cart.png" width="30px" height = "30px"></a>
+            <img src="images/menu.png" class="menu-icon" 
+            onclick="menutoggle()">
+        </div>
+        <div class ="row">
+            <div class = "col-2">
+                <h1>Give Your Life<br> A New Style!</h1>
+                <p>Discover the latest trends and timeless styles with our fashion clothing website. From chic everyday essentials to statement-making pieces, we offer a wide range of options to elevate your wardrobe. Shop with us for high-quality clothing that fits your style and budget.
+
+
+                </p>
+                <a href ="product.html" class = "btn"> Explore Now &#8594; </a>
+
+            </div>
+            <div class = "col-2">
+                <img src = "images/logoindex.png">
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------ Featured Categories ------>
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src = "images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src = "images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src = "images/category-3.jpg">
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-----featured products------>
+<div class="small-container">
+    <h2 class = "title">Featured Prodcuts</h2>
+    <div class = "row">
+        <div class ="col-4">
+            <a href = "productDet.html"><img src = "images/product-1.jpg"></a>
+            <a href ="productDet.html"><h4> Puma Goofy Red Shirt</h4></a>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱250.00</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/nikewatch.jpg">
+            <h4> Nike Watch</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱1000</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/nikeshoes.png">
+            <h4> Nike Air Hurricane</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱600</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/product-7.jpg">
+            <h4> HRX Socks</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱160.00</p>
+        </div>
+    </div>
+    <h2 class = "title"> Limited Special-Products</h2>
+    <div class = "row">
+        <div class ="col-4">
+            <img src = "images/unk1.jpg">
+            <h4> Product 1 Shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱150.00</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/unk2.jpg">
+            <h4> Product 2 Shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱150.00</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/unk3.jpg">
+            <h4> Product 3 Shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱150.00</p>
+        </div>
+        <div class ="col-4">
+            <img src = "images/unk4.jpg">
+            <h4> Product 4 Shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+            <p>₱150.00</p>
+        </div>
+    </div>
+    <div class = "row">
+        
+        
+        
+       
+    </div>
+</div>
+<!----------offered product section-->
+<div class = "offer">
+    <div class = "small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src = "images/exclusive.png" class ="offer-img">
+            </div>
+            <div class = "col-2">
+                <p>Special Product Available on FashionHub</p>
+                <h1>Smart Band 4 </h1>
+                <small> Stay active and connected with our Smart Band Watch. Monitor your fitness goals, receive notifications, and enjoy a sleek and durable design perfect for any occasion.<br>  
+                    </small>
+                <a href = "" class ="btn"> Buy Now &#8594;</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!------Review Section-->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class = "fa fa-quote-left"></i>
+                <p>Good Service!!</p>
+                <div class="rating">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <img src ="images/user-2.png">
+                <h3>Mikko Liaz</h3>
+            </div>
+            <div class="col-3">
+                <i class = "fa fa-quote-left"></i>
+                <p>Products are very well wrapped!</p>
+                <div class="rating">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <img src ="images/dream.jpg">
+                <h3>Perell Brown</h3>
+            </div>
+            <div class="col-3">
+                <i class = "fa fa-quote-left"></i>
+                <p>Very Nice Products!</p>
+                <div class="rating">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+                <img src ="images/review1.png">
+                <h3>Brandon C.</h3>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+</div>
+<!---------- Brands ----->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/gcash.png.png">
+            </div>
+            <div class="col-5">
+                <img src="images/bdo.png.png">
+            </div>
+            <div class="col-5">
+                <img src="images/phcoin.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/BPI.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!---------footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Free on Android and Ios</p>
+                <div class="app-logo">
+                    <img src ="images/play-store.png">
+                    <img src = "images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo1.png">
+                <p>Unleash Your Style with Our Clothing!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li> Coupons</li>
+                    <li> Blog Post</li>
+                    <li> Return Policy</li>
+                    <li> Joint Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li> Facebook</li>
+                    <li> Twitter</li>
+                    <li> Instagram</li>
+                    <li> Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class ="copyright">ITE 291 Project-Group 7</p>
+    </div>
+</div>
+<!----------toggle menu js-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+
+        }
+    }
+</script>
+    
+
+    
+</body>
+</html>
